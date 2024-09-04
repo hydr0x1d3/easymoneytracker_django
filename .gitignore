@@ -1,0 +1,79 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# If you are using Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Environments
+.env
+venv/
+env/
+ENV/
+.venv/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea/*
+
+# macOS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Translations
+*.mo
+
+# Static files
+staticfiles/
+static/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# System files
+Thumbs.db
+ehthumbs.db
+
+# JetBrains IDE files
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Pytest cache
+.pytest_cache/
