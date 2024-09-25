@@ -12,6 +12,8 @@ class TransactionSerializer(serializers.ModelSerializer):
 
     def validate_category(self, value):
         if value:
+            # Приводим категорию к нижнему регистру
+            value = value.lower()
             category, created = Category.objects.get_or_create(name=value)
             return category
         return None
